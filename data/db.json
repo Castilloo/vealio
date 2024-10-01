@@ -1,0 +1,280 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "taskName": "Design Homepage",
+      "deadline": "2024-10-15T00:00:00.000Z",
+      "people": [
+        {
+          "name": "Alice Johnson",
+          "age": 29,
+          "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+          ]
+        },
+        {
+          "name": "Bob Smith",
+          "age": 32,
+          "skills": [
+            "UX Design",
+            "Photoshop"
+          ]
+        }
+      ],
+      "status": true
+    },
+    {
+      "id": "2",
+      "taskName": "Develop Backend API",
+      "deadline": "2024-11-01T00:00:00.000Z",
+      "people": [
+        {
+          "name": "Charlie Brown",
+          "age": 35,
+          "skills": [
+            "Node.js",
+            "Express",
+            "MongoDB"
+          ]
+        },
+        {
+          "name": "Diana White",
+          "age": 28,
+          "skills": [
+            "SQL",
+            "API Design"
+          ]
+        }
+      ],
+      "status": true
+    },
+    {
+      "id": "3",
+      "taskName": "Setup CI/CD Pipeline",
+      "deadline": "2024-10-20T00:00:00.000Z",
+      "people": [
+        {
+          "name": "Eve Green",
+          "age": 30,
+          "skills": [
+            "DevOps",
+            "Jenkins",
+            "Docker"
+          ]
+        },
+        {
+          "name": "Frank Lee",
+          "age": 27,
+          "skills": [
+            "AWS",
+            "Terraform"
+          ]
+        }
+      ],
+      "status": true
+    },
+    {
+      "id": "4",
+      "taskName": "Write Unit Tests",
+      "deadline": "2024-10-25T00:00:00.000Z",
+      "people": [
+        {
+          "name": "Grace Miller",
+          "age": 31,
+          "skills": [
+            "Jest",
+            "Mocha",
+            "Chai"
+          ]
+        },
+        {
+          "name": "Henry Wilson",
+          "age": 26,
+          "skills": [
+            "Testing",
+            "Debugging"
+          ]
+        }
+      ],
+      "status": false
+    },
+    {
+      "id": "5",
+      "taskName": "Create Marketing Campaign",
+      "deadline": "2024-12-01T00:00:00.000Z",
+      "people": [
+        {
+          "name": "Isabella Garcia",
+          "age": 33,
+          "skills": [
+            "Marketing",
+            "SEO",
+            "Google Ads"
+          ]
+        },
+        {
+          "name": "Jack Martinez",
+          "age": 29,
+          "skills": [
+            "Content Creation",
+            "Analytics"
+          ]
+        }
+      ],
+      "status": true
+    },
+    {
+      "id": "6",
+      "taskName": "Optimize Database",
+      "deadline": "2024-11-10T00:00:00.000Z",
+      "people": [
+        {
+          "name": "Kevin Brown",
+          "age": 36,
+          "skills": [
+            "SQL",
+            "Performance Tuning"
+          ]
+        },
+        {
+          "name": "Laura Davis",
+          "age": 27,
+          "skills": [
+            "Database Administration",
+            "PostgreSQL"
+          ]
+        }
+      ],
+      "status": false
+    },
+    {
+      "id": "7",
+      "taskName": "Frontend Refactoring",
+      "deadline": "2024-11-05T00:00:00.000Z",
+      "people": [
+        {
+          "name": "Mia Thomas",
+          "age": 25,
+          "skills": [
+            "React",
+            "CSS",
+            "JavaScript"
+          ]
+        },
+        {
+          "name": "Nina Harris",
+          "age": 28,
+          "skills": [
+            "Vue",
+            "TypeScript"
+          ]
+        }
+      ],
+      "status": true
+    },
+    {
+      "id": "8",
+      "taskName": "Database Backup Setup",
+      "deadline": "2024-11-15T00:00:00.000Z",
+      "people": [
+        {
+          "name": "Oscar Clark",
+          "age": 34,
+          "skills": [
+            "Backup Solutions",
+            "Cloud Storage"
+          ]
+        },
+        {
+          "name": "Paul Lewis",
+          "age": 31,
+          "skills": [
+            "Linux Administration",
+            "Scripting"
+          ]
+        }
+      ],
+      "status": true
+    },
+    {
+      "id": "9",
+      "taskName": "Security Audit",
+      "deadline": "2024-11-25T00:00:00.000Z",
+      "people": [
+        {
+          "name": "Quinn Walker",
+          "age": 40,
+          "skills": [
+            "Cybersecurity",
+            "Penetration Testing"
+          ]
+        },
+        {
+          "name": "Rachel Young",
+          "age": 29,
+          "skills": [
+            "Network Security",
+            "Encryption"
+          ]
+        }
+      ],
+      "status": false
+    },
+    {
+      "id": "10",
+      "taskName": "Prepare Documentation",
+      "deadline": "2024-12-05T00:00:00.000Z",
+      "people": [
+        {
+          "name": "Sam Hall",
+          "age": 38,
+          "skills": [
+            "Technical Writing",
+            "Documentation"
+          ]
+        },
+        {
+          "name": "Tina Robinson",
+          "age": 30,
+          "skills": [
+            "Version Control",
+            "Git"
+          ]
+        }
+      ],
+      "status": false
+    },
+    {
+      "id": "0c4d",
+      "taskName": "Entregar tarea",
+      "deadline": "2024-10-10T05:00:00.000Z",
+      "people": [
+        {
+          "name": "Diego Maradona",
+          "age": 70,
+          "skills": [
+            "Futbol",
+            "Regate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ba54",
+      "taskName": "Entregar",
+      "deadline": "2024-10-16T05:00:00.000Z",
+      "people": [
+        {
+          "name": "juan",
+          "age": 22,
+          "skills": [
+            "R"
+          ]
+        }
+      ],
+      "status": false
+    }
+  ]
+}

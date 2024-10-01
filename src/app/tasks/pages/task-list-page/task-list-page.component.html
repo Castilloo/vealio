@@ -1,0 +1,12 @@
+<h1>Lista de tareas</h1>
+<mat-divider></mat-divider>
+<div class="flex justify-content-center">
+    <mat-tab-group class="md:w-10" (selectedTabChange)="onTabChanged($event)">
+        <mat-tab [label]="tab | titlecase" *ngFor="let tab of tabs"> 
+            <tasks-task-list [status]="status"/> 
+        </mat-tab>
+    </mat-tab-group>
+</div>
+
+
+

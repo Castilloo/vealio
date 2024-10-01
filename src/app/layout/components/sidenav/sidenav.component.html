@@ -1,0 +1,42 @@
+<mat-sidenav-container fullscreen>    
+    <mat-sidenav #sidenav mode="push" [ngStyle]="{ width: '250px' }">
+        
+        <mat-toolbar class="tool-black flex justify-content-between">
+
+            <span>Menú</span>
+
+            <button mat-icon-button (click)="sidenav.toggle()">
+                <mat-icon>close</mat-icon>
+            </button>
+
+        </mat-toolbar>
+
+        <mat-nav-list>
+            <mat-list-item 
+                *ngFor="let item of sidenavItems"
+                [routerLink]="item.url"
+                (click)="sidenav.toggle()"
+            > 
+                <div class="flex flex-wrap align-items-center gap-3">
+                    <mat-icon>{{ item.icon }}</mat-icon> 
+                    {{ item.label }}
+                </div>
+            </mat-list-item>
+        </mat-nav-list>
+    
+    </mat-sidenav>
+
+    <mat-toolbar class="surface-ground">
+        <button mat-icon-button (click)="sidenav.toggle()">
+            <mat-icon>menu</mat-icon>
+        </button>
+        <span class="pl-3">Vealio Tasks</span>
+    </mat-toolbar>
+
+    <div class="pl-4 pr-4 md:pl-8 md:pr-8 pt-3">
+
+        <router-outlet />
+
+    </div>
+
+</mat-sidenav-container>
